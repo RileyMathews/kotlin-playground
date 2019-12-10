@@ -1,0 +1,12 @@
+{
+	"name": "Existing Dockerfile",
+	"context": "..",
+	"dockerFile": "../Dockerfile",
+	"runArgs": [],
+	"settings": { 
+		"terminal.integrated.shell.linux": null
+	},
+	"extensions": [
+		"fwcd.kotlin"
+	]
+}
