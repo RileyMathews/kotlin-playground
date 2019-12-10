@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian:latest
 RUN apt-get update
 RUN apt-get install -y curl unzip
 RUN apt-get install -y default-jre
