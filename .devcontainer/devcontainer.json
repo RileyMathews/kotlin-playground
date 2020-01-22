@@ -1,12 +1,7 @@
 {
-	"name": "Existing Dockerfile",
-	"context": "..",
-	"dockerFile": "../Dockerfile",
-	"runArgs": [],
-	"settings": { 
-		"terminal.integrated.shell.linux": null
-	},
+	"dockerComposeFile": "../docker-compose.yml",
 	"extensions": [
-		"fwcd.kotlin"
-	]
+	],
+	"service": "app",
+	"workspaceFolder": "/workspace"
 }

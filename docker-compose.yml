@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  app:
+    build:
+      context: .
+    container_name: kotlin-playground
+    image: kotlin-playground:1
+    tty: true
+    stdin_open: true
+    volumes: 
+      - .:/workspace
